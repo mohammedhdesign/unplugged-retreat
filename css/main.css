@@ -100,13 +100,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/*--------Base Header / Footer Style */
+/*--------Base Header /Footer Style /Mobile */
 
 header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%
 
 }
 header .content-wrapper {
@@ -114,27 +115,40 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 
 }
 
+header {
+  padding: 20px 0;
+}
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-
-
+  width: 60%;
 }
 
+header img {
+  margin-bottom: 15px;
+}
+.header-divider {
+ width: 100%;
+ border-bottom: 1px solid #3a3a3a;
+}
 header nav ul {
   display: flex;
   justify-content: space-around;
-
+  width: 45%
 }
 
 
-
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -148,8 +162,11 @@ footer .social-icons p {
   align-items: center;
 }
 
-
 /*-------Hero Image ------------*/
+.hero-area .content-wrapper {
+  width: 87%;
+}
+
 .hero-area {
 display: flex;
 justify-content: center;
@@ -159,6 +176,12 @@ flex-flow: row wrap;
 
 
 /*--------Newsletter ------------*/
+aside .content-wrapper {
+  width: 87%;
+}
+
+
+
 aside {
   display: flex;
   justify-content: center;
@@ -172,10 +195,16 @@ aside {
 
 
 /*--------Features ------------*/
+.features .content-wrapper {
+  width: 87%;
+}
+
+
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 48%
 
 
 }
@@ -188,16 +217,27 @@ aside {
 
 
 /*--------reviews ------------*/
+.reviews .content-wrapper {
+  width: 87%;
+}
 .reviews {
 display: flex;
 justify-content: center;
 flex-flow: row wrap;
 }
 
-
+.reviews h2 {
+  width: 82%;
+}
 
 
 /*--------About Page - Mission Section------------*/
+
+
+.mission .content-wrapper {
+  width: 87%;
+}
+
 
 .mission {
 display: flex;
@@ -221,6 +261,11 @@ figure {
 }
 
 /*--------About Page - contact Section------------*/
+.contact-section .content-wrapper {
+  width: 87%;
+}
+
+
 .contact-section {
 display: flex;
 justify-content: center;
@@ -231,6 +276,11 @@ flex-flow: row wrap;
 
 
 /*--------FAQ Page - Questions------------*/
+
+.faq .content-wrapper {
+  width: 87%;
+}
+
 .faq {
 display: flex;
 justify-content: center;
