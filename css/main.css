@@ -389,6 +389,10 @@ aside {
   flex-flow: row wrap;
 }
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 20px;
+}
 
 /*--------reviews ------------*/
 
