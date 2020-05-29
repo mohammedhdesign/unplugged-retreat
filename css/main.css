@@ -431,7 +431,7 @@ background-color: #527158;
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
 }
 
 /*--------About Page - contact Section------------*/
@@ -705,6 +705,14 @@ flex-basis: 50%;
 
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 45%;
+  overflow: hidden;
+  position: relative;
+}
+
 /* Contact Section */
 
 .contact-section .content-wrapper h2 {
@@ -815,6 +823,14 @@ flex-basis: 50%;
 
 .mission h2, .contact-section .content-wrapper h2{
   width: 90%;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 38%;
+  overflow: hidden;
+  position: relative;
 }
 
 .contact-section .content-wrapper h2 {
