@@ -173,9 +173,9 @@ textarea {
      margin: 50px 0;
    }
 
-   aside .form {
+   /* aside .form {
   margin-top: 30px;
-}
+} */
 
 /* Form Button */
 
@@ -213,7 +213,7 @@ input[type=button] {
    }
 
    h2 {
-     font-size: 1.8em;
+     font-size: 3.8em;
      font-weight: 500;
      text-align: left;
 
@@ -221,7 +221,7 @@ input[type=button] {
 
    h3,
    h4 {
-     font-size: 1.1em;
+     font-size: 1.8em;
      text-align: left;
 
 
@@ -330,8 +330,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 9%;
 }
-
+.social h4 {
+  text-align: center;
+}
 .social-icons i {
   background: #527158;
   border-radius: 50%;
@@ -351,6 +354,10 @@ footer .social-icons p {
   height: 500px;
 }
 
+.hero-area h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
 
 .hero-area {
 display: flex;
@@ -372,6 +379,9 @@ aside {
 
 }
 
+.form-description h3, .form h3 {
+  text-align: left;
+}
 
 
 /*--------Features ------------*/
@@ -414,8 +424,18 @@ background-color: #2a423a;
 
 .reviews h2 {
   margin-bottom: 40px;
-}
+  width: 100%;
+  font-size: 2.5em;
 
+}
+.reviews h3 {
+  width: 60%;
+  margin:4% 0 0 0;
+}
+.reviews p {
+  margin:4% 0 0 0;
+  text-align: left;
+}
 
 /*--------About Page - Mission Section------------*/
 
@@ -428,6 +448,7 @@ flex-flow: row wrap;
 background-color: #527158;
 
 }
+
 
 
 /*--------About Page - Map Section------------*/
@@ -472,15 +493,20 @@ flex-flow: row wrap;
 background-color: #527158;
 
 }
-
+.faq h2 {
+  font-size: 2em;
+  margin-left: 0;
+  text-align: left;
+}
 .faq .content-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-
+.faq h4 {
+  text-align: left;
+}
 
 /* ==========================================================================
    Helper classes
@@ -590,7 +616,7 @@ background-color: #527158;
   h3,
   h4 {
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
 
 
 
@@ -616,7 +642,7 @@ header {
 display: flex;
 justify-content: space-around;
 width: 100%;
-height: 90px;
+
 }
 
 header figure {
@@ -694,7 +720,18 @@ flex-basis: 50%;
   justify-content: space-between;
 }
 .reviews article div {
-  width: 49%;
+  width: 80%;
+}
+
+.reviews h3 {
+  margin:0 0 10px 10%;
+  text-align: left;
+    width: 80%;
+}
+
+.reviews p {
+  margin:0 0 0 10%;
+  text-align: left;
 }
 /* Footer */
 
@@ -702,6 +739,10 @@ flex-basis: 50%;
   display: flex;
   justify-content: space-between;
   flex-flow: row nowrap;
+}
+
+.social h1 {
+  text-align: center;
 }
 /*==============About Section========================*/
 
@@ -768,7 +809,7 @@ flex-basis: 50%;
   .content-wrapper {
     max-width: 965px;
   }
-  /* Header */
+  /* Header/Social */
   header .content-wrapper {
     height: 90px;
     margin: 0 0;
@@ -781,6 +822,18 @@ flex-basis: 50%;
 
   header figure {
   width: 28%;
+  }
+
+ .social-icons  {
+    margin: 0 auto 0 auto;
+  }
+
+  footer .social-icons p {
+    margin-right: 38px;
+  }
+
+  .social h1 {
+    text-align: center;
   }
 
   /* Hero */
@@ -828,6 +881,13 @@ flex-basis: 50%;
 
   /* reviews */
 
+  .review-title h3 {
+    width: 70%;
+    text-align: left;
+  }
+  .reviews figure {
+    margin-right: 5%;
+  }
   .reviews article div {
     width: 45%;
   }
